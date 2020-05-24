@@ -1,0 +1,7 @@
+package io.microservice.moviecatalogservice.model;
+
+public class Movie {
+	String movieID;
+	String name;
+	
+}

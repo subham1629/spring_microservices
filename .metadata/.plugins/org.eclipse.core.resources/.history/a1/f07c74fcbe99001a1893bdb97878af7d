@@ -1,0 +1,5 @@
+package io.microservice.ratingdataservices.model;
+
+public class Rating {
+
+}

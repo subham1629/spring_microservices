@@ -1,0 +1,19 @@
+package io.microservice.moviecatalogservice.resource;
+
+import java.util.Collection.*;
+import java.util.Collections;
+import java.util.List;
+
+import org.springframework.web.bind.annotation.RestController;
+
+import io.microservice.moviecatalogservice.model.CatalogItem;
+
+@RestController
+public class MovieCatalogResource {
+	public List<CatalogItem> getCatalog(String userID){
+		return Collections.singletonList(
+				new CatalogItem("Transformers","Test",4)
+		);
+		
+	}
+}

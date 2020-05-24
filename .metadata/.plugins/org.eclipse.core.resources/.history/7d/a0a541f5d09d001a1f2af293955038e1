@@ -1,0 +1,3 @@
+server.port=8081
+spring.application.name=movie-info-service
+spring.sendgrid.api-key=0e35ed12aba0804c24fe175b46289cf8
